@@ -6,20 +6,20 @@
     }],
     "routes": [
     {
-        "src": "src/server.js",
-        "dest": "/"
+        "src": "/",
+        "dest": "src/server.js"
     },
     {
         "src": "/items",
-        "dest": "/"
+        "dest": "src/server.js"
     },
     {
         "src": "/points",
-        "dest": "/"
+        "dest": "src/server.js"
     },
     {
         "src": "/uploads",
-        "dest": "/"
+        "dest": "src/server.js"
     }]
 
 }
