@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts",
     "migrate": "knex --knexfile knexFile.ts migrate:latest",
-    "seed": "knex --knexfile knexFile.ts seed:run"
+    "seed": "knex --knexfile knexFile.ts seed:run",
+    "build": "node run tsc"
   },
   "dependencies": {
     "@types/multer": "^1.4.3",
