@@ -4,7 +4,12 @@
         "src": "src/server.js",
         "use": "@now/node-server"
     }],
-    "routes": [{
+    "routes": [
+    {
+        "src": "/",
+        "dest": "/"
+    },
+    {
         "src": "/items",
         "dest": "/"
     },
