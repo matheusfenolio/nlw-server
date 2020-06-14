@@ -1,8 +1,7 @@
 {
     "version": 2,
     "builds": [
-        { "src": "src/server.js", "use": "@now/node-server" },
-        { "src": "package.json", "use": "@now/static-build" }
+        { "src": "src/server.js", "use": "@now/node-server" }
     ],
     "routes": [
     {
