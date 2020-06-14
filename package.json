@@ -7,7 +7,7 @@
     "dev": "ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts",
     "migrate": "knex --knexfile knexFile.ts migrate:latest",
     "seed": "knex --knexfile knexFile.ts seed:run",
-    "build": "node run tsc"
+    "build": "yarn install && yarn tsc && yarn migrate && yarn seed"
   },
   "dependencies": {
     "@types/multer": "^1.4.3",
